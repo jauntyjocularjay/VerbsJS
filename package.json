@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "verbs.mjs",
   "scripts": {
-    "dev": "git submodule update --init"
+    "dev": "git submodule update --init",
+    "test": "clear && jest"
   },
   "author": "jauntyjocularjay",
   "license": "MIT",
