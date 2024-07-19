@@ -55,6 +55,13 @@ function is(bool=true){
         return 'is NOT'
 }
 
+function isInteger(bool=true){
+    if(bool)
+        return 'is an integer'
+    else 
+        return 'is not an integer'
+}
+
 function matches(bool=true){
     if(bool)
         return 'matches'
@@ -78,6 +85,7 @@ module.exports = {
     have,
     has,
     is,
+    isInteger,
     matches,
     recognizes
 }
