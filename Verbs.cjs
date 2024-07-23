@@ -58,7 +58,7 @@ function is(bool=true){
 function isCloseTo(bool=true){
     if(bool)
         return 'is close to'
-    else
+    else 
         return 'is NOT close to'
 }
 
