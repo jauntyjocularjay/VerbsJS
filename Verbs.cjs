@@ -55,6 +55,13 @@ function is(bool=true){
         return 'is NOT'
 }
 
+function isCloseTo(bool=true){
+    if(bool)
+        return 'is close to'
+    else 
+        return 'is NOT close to'
+}
+
 function isInteger(bool=true){
     if(bool)
         return 'is an integer'
@@ -85,6 +92,7 @@ module.exports = {
     have,
     has,
     is,
+    isCloseTo,
     isInteger,
     matches,
     recognizes
