@@ -3,6 +3,7 @@ const {
     getCounter,
     throwsAnError,
     contains,
+    defined,
     did,
     does,
     have,
@@ -21,6 +22,14 @@ describe('Verbs.cjs', () => {
 
             it('contains()', () => {
                 expect(contains()).toBe('contains')
+            })
+
+            it('defined()', () => {
+                expect(defined()).toBe('defined')
+            })
+
+            it('did()', () => {
+                expect(did()).toBe('did')
             })
 
             it('does()', () => {
@@ -56,6 +65,14 @@ describe('Verbs.cjs', () => {
                 expect(contains(true)).toBe('contains')
             })
 
+            it('defined(true)', () => {
+                expect(defined(true)).toBe('defined')
+            })
+
+            it('did(true)', () => {
+                expect(did(true)).toBe('did')
+            })
+
             it('does(true)', () => {
                 expect(does(true)).toBe('does')
             })
@@ -89,6 +106,14 @@ describe('Verbs.cjs', () => {
 
             it('contains(false)', () => {
                 expect(contains(false)).toBe('does NOT contain')
+            })
+
+            it('defined(false)', () => {
+                expect(defined(false)).toBe('undefined')
+            })
+
+            it('did(false)', () => {
+                expect(did(false)).toBe('did NOT')
             })
 
             it('does(false)', () => {
