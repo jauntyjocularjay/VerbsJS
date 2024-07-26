@@ -20,6 +20,14 @@ function contains(bool=true){
         return 'does NOT contain'
 }
 
+/** @todo test */
+function defined(bool=true){
+    if(bool)
+        return 'defined'
+    else
+        return 'undefined'
+}
+
 function did(bool=true){
     if(bool)
         return 'did'
@@ -87,6 +95,7 @@ module.exports = {
     getCounter,
     throwsAnError,
     contains,
+    defined,
     did,
     does,
     have,
