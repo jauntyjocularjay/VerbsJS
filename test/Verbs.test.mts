@@ -1,5 +1,5 @@
 
-const {
+import {
     getCounter,
     throwsAnError,
     contains,
@@ -11,9 +11,9 @@ const {
     is,
     matches,
     recognizes
-} = require('../Verbs.cjs')
+} from '../Verbs'
 
-describe('Verbs.cjs', () => {
+describe('Verbs.mts', () => {
     describe('Affirmative Verbs', () => {
         describe('return affirmative verbs by default', () => {
             it('throwsAnError()', () => {
