@@ -1,11 +1,11 @@
 {
-    "name": "verbsjs",
-    "version": "1.0.0",
-    "main": "verbs.mjs",
+    "name": "assertion-verbs",
+    "version": "0.1.0",
+    "main": "Verbs.ts",
     "scripts": {
-        "dev": "git submodule update --init",
         "test": "clear && node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
     },
+    "type": "module",
     "author": "jauntyjocularjay",
     "license": "MIT",
     "repository": {
@@ -15,11 +15,16 @@
     "keywords": [
         "unit",
         "testing",
-        "jest"
+        "jestr"
     ],
     "bugs": {
         "url": "https://github.com/jauntyjocularjay/VerbsJS/issues"
     },
     "homepage": "https://github.com/jauntyjocularjay/VerbsJS#readme",
-    "description": ""
+    "description": "assertion-verbs is a simple library of verbs for making positive/negative assertions readable.",
+    "devDependencies": {
+        "tsc": "^2.0.4",
+        "typescript": "^5.8.3",
+        "undici-types": "^7.11.0"
+    }
 }

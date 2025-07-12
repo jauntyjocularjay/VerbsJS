@@ -10,7 +10,7 @@ import {
     is,
     matches,
     recognizes
-} from '../Verbs'
+} from '../Verbs.mjs'
 
 describe('Verbs.ts', () => {
     describe('contains', () => {

@@ -1,4 +1,4 @@
-const config = {
+var config = {
     "testEnvironment": "node",
     "bail": 1,
     "verbose": true,
@@ -11,8 +11,8 @@ const config = {
         ".tsx"
     ],
     "testMatch": [
-         "**/__tests__/**/ts?(x)"
-        ,"**/?(*.)+(spec|test).ts?(x)"
+        "**/__tests__/**/ts?(x)",
+        "**/?(*.)+(spec|test).ts?(x)"
     ],
     "transform": {
         "^.+.tsx?$": [
@@ -22,6 +22,6 @@ const config = {
             }
         ]
     }
-}
-
-export default config
+};
+export default config;
+//# sourceMappingURL=jest.config.js.map
